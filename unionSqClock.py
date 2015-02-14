@@ -13,7 +13,7 @@ class DigitalClock(QtGui.QWidget):
 
 		self.lcd = QtGui.QLCDNumber(self)
 		self.lcd.setDigitCount(21)          # change the number of digits displayed
-		self.setGeometry(30, 30, 800, 600)
+		self.setGeometry(200, 200, 600, 200)
 		self.setWindowTitle('Union Square Clock')
 
 		vbox = QtGui.QVBoxLayout()
