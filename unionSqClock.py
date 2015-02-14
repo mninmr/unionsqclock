@@ -27,7 +27,7 @@ class DigitalClock(QtGui.QWidget):
 		text = time.toString('hh:mm:ss:zzz')
 
 		# add reverse
-		hours = str(24-int(text[:2]))
+		hours = str(23-int(text[:2]))
 		mins = str(59-int(text[3:5]))
 		secs = str(59-int(text[6:8]))
 		text += ':' + secs + ':' + mins + ':' + hours
